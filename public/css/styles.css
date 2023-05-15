@@ -1,0 +1,71 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+  font-family: 'Ysabeau', sans-serif;
+}
+
+.content{
+  font-weight: 700;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color:white;
+  font-weight: 700;
+}
+.navbar-nav li a:hover {
+  color: #5f693a !important;
+}
+.fade-in-image{
+  animation:fadeIn 5s;
+  -webkit-animation:fadeIn 5s;
+  position:relative;
+  text-align:center;
+  
+}
+h2 { 
+  position: absolute; 
+  top: 300px; 
+  left: 30; 
+  right:50;
+
+  width: 100%; 
+
+}
+
+
+@keyframes fadeIn{
+  0% {opacity:0;}
+  100%{opacity:1;}
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color:#5f693a;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 20px;
+  color:#211111;
+}
